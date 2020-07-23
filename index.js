@@ -17,7 +17,7 @@ const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
 const objectID = mongodb.ObjectID;
 
-const dbURL = "mongodb+srv://suganya:suganya@cluster0.bg7iy.mongodb.net/studentRecords?retryWrites=true&w=majority" || "mongodb://127.0.0.1:27017";
+const dbURL = "mongodb+srv://sowndarya:sowndarya@cluster0.bg7iy.mongodb.net/studentRecords?retryWrites=true&w=majority" || "mongodb://127.0.0.1:27017";
 
 
 app.get("/", (req, res) => {
